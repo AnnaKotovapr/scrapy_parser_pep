@@ -12,7 +12,7 @@ FILENAME = 'status_summary_{time}.csv'
 
 
 class PepParsePipeline:
-    
+
     def open_spider(self, spider):
 
         self.results = {}
