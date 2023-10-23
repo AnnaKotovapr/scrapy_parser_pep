@@ -1,0 +1,629 @@
+name,number,status
+PEP Purpose and Guidelines,1,Active
+Style Guide for Python Code,8,Active
+Voting Guidelines,10,Active
+Bug Fix Releases,6,Active
+Sample reStructuredText PEP Template,12,Active
+Style Guide for C Code,7,Active
+Sample Plaintext PEP Template,9,Withdrawn
+CPython platform support,11,Active
+Guidelines for Language Evolution,5,Active
+Guidelines for Handling Bug Reports,3,Withdrawn
+Procedure for Adding New Modules,2,Active
+Deprecation of Standard Modules,4,Active
+List Comprehensions,202,Final
+Lockstep Iteration,201,Final
+Augmented Assignments,203,Final
+Add a “while” clause to generator expressions,3142,Rejected
+Supporting NonASCII Identifiers,3131,Final
+futures  execute computations asynchronously,3148,Final
+Python 2.0 Release Schedule,200,Final
+2023 Term Steering Council election,8104,Active
+Removing dead batteries from the standard library,594,Final
+2020 Term Steering Council election,8101,Final
+2022 Term Steering Council election,8103,Final
+2021 Term Steering Council election,8102,Final
+January 2019 Steering Council election,8100,Final
+The Community Governance Model,8012,Rejected
+The Steering Council Model,8016,Accepted
+The External Council Governance Model,8013,Rejected
+Python Governance Model Lead by Trio of Pythonistas,8011,Rejected
+Organization of the Python community,8015,Rejected
+The Technical Leader Governance Model,8010,Rejected
+Reworking the OS and IO exception hierarchy,3151,Final
+Open Source Governance Survey,8002,Final
+Asynchronous IO support,3153,Superseded
+Qualified name for classes and functions,3155,Final
+Python Web Server Gateway Interface v1.0.1,3333,Final
+Cofunctions,3152,Rejected
+Asynchronous IO Support Rebooted: the “asyncio” Module,3156,Final
+ABI version tagged .so files,3149,Final
+Pickle protocol version 4,3154,Final
+Statement local namespaces (aka “given” clause),3150,Deferred
+Merging Unladen Swallow into CPython,3146,Withdrawn
+Python Language Governance Proposal Overview,8000,Final
+PYC Repository Directories,3147,Final
+Standard daemon process library,3143,Deferred
+A Type Hierarchy for Numbers,3141,Final
+Cleaning out sys and the “interpreter” module,3139,Rejected
+Asynchronous I/O For subprocess.Popen,3145,Withdrawn
+"str(container) should call str(item), not repr(item)",3140,Rejected
+Immutable Bytes and Mutable Buffer,3137,Final
+String representation in Python 3000,3138,Final
+Labeled break and continue,3136,Rejected
+Extended Iterable Unpacking,3132,Final
+Access to Current Module/Class/Function,3130,Rejected
+Introducing Roles,3133,Rejected
+BList: A Faster Listlike Type,3128,Rejected
+Class Decorators,3129,Final
+Exception Chaining and Embedded Tracebacks,3134,Final
+New Super,3135,Final
+Integer Literal Support and Syntax,3127,Final
+Remove Implicit String Concatenation,3126,Rejected
+Remove Backslash Continuation,3125,Rejected
+Delineation of the main module,3122,Rejected
+Making PyObject_HEAD conform to standard C,3123,Final
+Using UTF8 as the default source encoding,3120,Final
+Extension Module Initialization and Finalization,3121,Final
+"Overloading, Generic Functions, Interfaces, and Adaptation",3124,Deferred
+The Commons Governance Model,8014,Rejected
+Introducing Abstract Base Classes,3119,Final
+Postfix type declarations,3117,Rejected
+New I/O,3116,Final
+Python Governance Voting Process,8001,Final
+Metaclasses in Python 3000,3115,Final
+Revising the buffer protocol,3118,Final
+Removal of Tuple Parameter Unpacking,3113,Final
+Bytes literals in Python 3000,3112,Final
+Raising Exceptions in Python 3000,3109,Final
+Function Annotations,3107,Final
+"Revamping dict.keys(), .values() and .items()",3106,Final
+Catching Exceptions in Python 3000,3110,Final
+Standard Library Reorganization,3108,Final
+Make print a function,3105,Final
+Access to Names in Outer Scopes,3104,Final
+Renaming iterator.next() to iterator.__next__(),3114,Final
+A Switch/Case Statement,3103,Rejected
+KeywordOnly Arguments,3102,Final
+Simple input builtin in Python 3000,3111,Final
+IP Address Manipulation Library for the Python Standard Library,3144,Final
+Things that will Not Change in Python 3000,3099,Final
+Miscellaneous Python 3.0 Plans,3100,Final
+Procedure for BackwardsIncompatible Changes,3002,Final
+Procedure for reviewing and improving standard library modules,3001,Withdrawn
+Advanced String Formatting,3101,Final
+Python 3000,3000,Final
+IEEE 754 Floating Point Special Values,754,Rejected
+The Python Documentation Editorial Board,732,Draft
+C API Working Group Charter,731,Draft
+Reserved,801,Active
+Documentation in Annotated Metadata,727,Draft
+Module ,726,Draft
+Typing governance process,729,Draft
+Stricter Type Guards,724,Draft
+Using tarfile.data_filter for source distribution extraction,721,Final
+Specifying external dependencies in pyproject.toml,725,Draft
+Python Language Moratorium,3003,Final
+Adding iOS as a supported platform,730,Draft
+Python 3.13 Release Schedule,719,Active
+Subscriptable functions,718,Draft
+Dependency specification for singlefile scripts,722,Rejected
+Embedding pyproject.toml in singlefile scripts,723,Draft
+Disabling bdist_egg distribution uploads on PyPI,715,Final
+Adding a “converter” parameter to dataclasses.field,712,Draft
+PyBI: a standard format for distributing Python Binaries,711,Draft
+Recording the provenance of installed packages,710,Draft
+Crosscompiling Python packages,720,Draft
+Inlined comprehensions,709,Accepted
+Extending the Repository API to Mitigate Dependency Confusion Attacks,708,Provisional
+Filter for tarfile.extractall,706,Final
+A simplified signature for __exit__ and __aexit__,707,Rejected
+Callable Modules,713,Rejected
+Rename distinfometadata in the Simple API,714,Accepted
+TypedDict: Readonly and other keys,705,Draft
+Marking deprecations using the type system,702,Draft
+Syntactic formalization of fstrings,701,Accepted
+Remove private dict version field added in PEP 509,699,Accepted
+Limited C API for Extending Opaque Types,697,Final
+Additional Fields for the Simple API for Package Indexes,700,Accepted
+Python 3.12 Release Schedule,693,Active
+Require virtual environments by default for package installers,704,Withdrawn
+Type Parameter Syntax,695,Accepted
+Override Decorator for Static Typing,698,Accepted
+Type defaults for TypeVarLikes,696,Draft
+Upload 2.0 API for Python Package Repositories,694,Draft
+JSONbased Simple API for Python Package Indexes,691,Accepted
+Make UTF8 mode default,686,Accepted
+Isolating modules in the standard library,687,Accepted
+Using TypedDict for more precise **kwargs typing,692,Accepted
+Making the buffer protocol accessible in Python,688,Accepted
+Comparison of extra names for optional distribution dependencies,685,Accepted
+Unstable C API tier,689,Final
+Lazy Imports,690,Rejected
+"Immortal Objects, Using a Fixed Refcount",683,Accepted
+Allow parentheses in assert statements,679,Draft
+tomllib: Support for Parsing TOML in the Standard Library,680,Final
+A PerInterpreter GIL,684,Accepted
+Format Specifier for Signed Zero,682,Final
+PEP Infrastructure Process,676,Active
+Making the Global Interpreter Lock Optional in CPython,703,Draft
+Arbitrary Literal String Type,675,Accepted
+Data Class Transforms,681,Accepted
+Enriching Exceptions with Notes,678,Final
+Callable Type Syntax,677,Rejected
+Unicoderelated Security Considerations for Python,672,Active
+Disallow using macros as lvalues,674,Deferred
+Convert macros to functions in the Python C API,670,Final
+Reject Foolish Indentation,666,Rejected
+Python 3.11 Release Schedule,664,Active
+Consistent views of namespaces,667,Draft
+Low Impact Monitoring for CPython,669,Accepted
+"Standardizing Enum str(), repr(), and format() behaviors",663,Rejected
+Editable installs via virtual wheels,662,Rejected
+Specializing Adaptive Interpreter,659,Draft
+Syntax for latebound function argument defaults,671,Draft
+A file format to list Python dependencies for reproducibility of an application,665,Rejected
+Editable installs for pyproject.toml based builds (wheel based),660,Final
+Serve Distribution Metadata in the Simple Repository API,658,Accepted
+Self Type,673,Accepted
+Sentinel Values,661,Draft
+Marking Python base environments as “externally managed”,668,Accepted
+Include Fine Grained Error Locations in Tracebacks,657,Final
+Platform Tag for Linux Distributions Using Musl,656,Final
+Marking individual TypedDict items as required or potentiallymissing,655,Accepted
+Precise Semantics for Pattern Matching,653,Draft
+Robust Stack Overflow Handling,651,Rejected
+Maintaining the Stable ABI,652,Final
+Allow writing optional types as ,645,Withdrawn
+UserDefined Type Guards,647,Accepted
+Require OpenSSL 1.1.1 or newer,644,Final
+Extensible customizations of the interpreter at startup,648,Rejected
+Variadic Generics,646,Accepted
+Exception Groups and except*,654,Final
+Metadata for Package Source Distributions,643,Final
+Specifying Installer Requirements for Python Projects,650,Withdrawn
+Deferred Evaluation Of Annotations Using Descriptors,649,Accepted
+Unused variable syntax,640,Rejected
+Support for indexing with keyword arguments,637,Rejected
+Using an underscore in the version portion of Python 3.10 compatibility tags,641,Rejected
+Structural Pattern Matching: Specification,634,Accepted
+Improving License Clarity with Better Package Metadata,639,Draft
+Deprecate distutils module,632,Final
+Dependency specification in pyproject.toml using an exploded TOML table,633,Rejected
+Dependency specification in pyproject.toml based on PEP 508,631,Superseded
+Structural Pattern Matching: Motivation and Rationale,635,Final
+Structural Pattern Matching: Tutorial,636,Final
+Versioning PyPI’s Simple API,629,Final
+Syntactic Macros,638,Draft
+Explicit Pattern Syntax for Structural Pattern Matching,642,Rejected
+Isolating Extension Modules,630,Final
+Add ,628,Final
+Precise line numbers for debugging and other tools.,626,Final
+Remove Py_UNICODE encoder APIs,624,Final
+Recording installed projects,627,Final
+Python 3.10 Release Schedule,619,Active
+Filename of a Source Distribution,625,Accepted
+Storing project metadata in pyproject.toml,621,Final
+Hide implementation details from the C API,620,Withdrawn
+Add Optional LengthChecking To zip,618,Final
+Remove wstr from Unicode,623,Final
+String methods to remove prefixes and suffixes,616,Final
+Relaxing Grammar Restrictions On Decorators,614,Final
+Explicit Type Aliases,613,Accepted
+New PEG parser for CPython,617,Accepted
+Python Packaging Authority (PyPA) Governance,609,Active
+Coordinated Python release,608,Rejected
+Recording the Direct URL Origin of installed distributions,610,Final
+Reducing CPython’s Feature Delivery Latency,607,Final
+Allow writing union types as ,604,Accepted
+Python Compatibility Version,606,Rejected
+Annual Release Cycle for Python,602,Accepted
+The one million limit,611,Withdrawn
+Adding a frozenmap type to collections,603,Draft
+Parameter Specification Variables,612,Accepted
+A rolling feature release stream for CPython,605,Rejected
+Forbid return/break/continue breaking out of finally,601,Rejected
+Support for the IANA Time Zone Database in the Standard Library,615,Accepted
+Python 3.9 Release Schedule,596,Active
+Future ‘manylinux’ Platform Tags for Portable Linux Built Distributions,600,Final
+Structural Pattern Matching,622,Superseded
+Add optional EncodingWarning,597,Final
+Improving bugs.python.org,595,Withdrawn
+Adding “Yank” Support to the Simple API,592,Final
+The manylinux2014 Platform Tag,599,Superseded
+Adding a final qualifier to typing,591,Accepted
+GitHub Issues Migration Plan,588,Draft
+Vectorcall: a fast calling protocol for CPython,590,Accepted
+Flexible function and variable annotations,593,Accepted
+Type Hinting Generics In Standard Collections,585,Final
+Add Union Operators To dict,584,Final
+Python Initialization Configuration,587,Final
+Using GitHub Issues for CPython,581,Accepted
+Literal Types,586,Accepted
+Refactoring C functions and methods,579,Final
+TypedDict: Type Hints for Dictionaries with a Fixed Set of Keys,589,Accepted
+A Concurrency Memory Model for Python,583,Withdrawn
+Rationalize Builtin function classes,576,Withdrawn
+Introducing incremental feature releases,598,Withdrawn
+The C call protocol,580,Rejected
+Module State Access from C Extension Methods,573,Final
+Python Runtime Audit Hooks,578,Accepted
+Pickle protocol 5 with outofband data,574,Final
+Python 3.8 Release Schedule,569,Active
+The manylinux2010 Platform Tag,571,Superseded
+Generatorsensitivity for Context Variables,568,Deferred
+Python PositionalOnly Parameters,570,Final
+Metadata for Python Software Packages 2.1,566,Final
+Augmented Assignment Expressions,577,Withdrawn
+Context Variables,567,Final
+Unifying function/method classes,575,Withdrawn
+Add new time functions with nanosecond resolution,564,Final
+Show DeprecationWarning in __main__,565,Final
+Postponed Evaluation of Annotations,563,Accepted
+Distributing and Packaging Type Information,561,Final
+Python local packages directory,582,Rejected
+Builtin noop(),559,Rejected
+Module __getattr__ and __dir__,562,Final
+Core support for typing module and generic types,560,Accepted
+Threaded garbage collection,556,Deferred
+Defined semantics for locals(),558,Deferred
+Data Classes,557,Final
+Deterministic pycs,552,Final
+Multiple Interpreters in the Stdlib,554,Draft
+Security transparency in the Python runtime,551,Withdrawn
+Instance Descriptors,549,Rejected
+More Flexible Loop Control,548,Rejected
+Builtin breakpoint(),553,Final
+Running extension modules using the m option,547,Deferred
+Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7,546,Rejected
+Contextlocal variables (contextvars),555,Withdrawn
+Dot Notation Assignment In Function Header,542,Rejected
+Python Documentation Translations,545,Final
+Package Index Name Retention,541,Final
+A New CAPI for ThreadLocal Storage in CPython,539,Final
+Python 3.7 Release Schedule,537,Final
+Execution Context,550,Withdrawn
+Add a new UTF8 Mode,540,Final
+Final Grammar for Literal String Interpolation,536,Deferred
+Assignment Expressions,572,Final
+Protocols: Structural subtyping (static duck typing),544,Accepted
+Improved Errors for Missing Standard Library Modules,534,Deferred
+Coercing the legacy C locale to a UTF8 based locale,538,Final
+A circuit breaking protocol and binary operators,532,Deferred
+A Unified TLS API for Python,543,Withdrawn
+Rich comparison chaining,535,Deferred
+Asynchronous Comprehensions,530,Final
+Change Windows console encoding to UTF8,528,Final
+Removing Un(der)used file types/extensions on PyPI,527,Final
+Change Windows filesystem encoding to UTF8,529,Final
+Deterministic cleanup for iterators,533,Deferred
+Adding a frame evaluation API to CPython,523,Final
+Asynchronous Generators,525,Final
+Allow BlockingIOError in security sensitive APIs,522,Rejected
+Managing global context via ‘with’ blocks in generators and coroutines,521,Withdrawn
+Preserving Class Attribute Definition Order,520,Final
+Make os.urandom() blocking on Linux,524,Final
+Specifying Minimum Build System Requirements for Python Projects,518,Final
+Adding a file system path protocol,519,Final
+Underscores in Numeric Literals,515,Final
+Syntax for Variable Annotations,526,Final
+A buildsystem independent format for source trees,517,Final
+A Platform Tag for Portable Linux Built Distributions,513,Superseded
+Migrating from hg.python.org to GitHub,512,Final
+Add a private version to dict,509,Superseded
+API for code transformers,511,Rejected
+Build system abstraction for pip/conda etc,516,Rejected
+Dependency specification for Python Software Packages,508,Final
+Existence checking operators,531,Withdrawn
+Migrate CPython to Git and GitLab,507,Rejected
+Adding A Secrets Module To The Standard Library,506,Final
+Simple Repository API,503,Final
+A protocol for delegating datetime methods to their tzinfo implementations,500,Rejected
+Using the System RNG by default,504,Withdrawn
+General purpose string interpolation,501,Deferred
+Specialize functions with guards,510,Rejected
+ ,499,Deferred
+Noneaware operators,505,Deferred
+Literal String Interpolation,498,Final
+Environment Markers,496,Rejected
+A standard mechanism for backward compatibility,497,Rejected
+Python 3.6 Release Schedule,494,Final
+The Wheel Binary Package Format 1.9,491,Deferred
+HTTPS verification migration tools for Python 2.7,493,Final
+Coroutines with async and await syntax,492,Final
+Chain exceptions at C level,490,Rejected
+Multiphase extension module initialization,489,Final
+Python registration in the Windows registry,514,Active
+Elimination of PYO files,488,Final
+Make the Python Launcher aware of virtual environments,486,Final
+Simpler customisation of class creation,487,Final
+A Function for testing approximate equality,485,Final
+String Interpolation  Extended Discussion,502,Rejected
+Literature Overview for Type Hints,482,Final
+"Migrate CPython to Git, Github, and Phabricator",481,Withdrawn
+Type Hints,484,Final
+Enabling certificate verification by default for stdlib http clients,476,Final
+The Theory of Type Hints,483,Final
+Backport ensurepip (PEP 453) to Python 2.7,477,Final
+Python 3.5 Release Schedule,478,Final
+Retry system calls failing with EINTR,475,Final
+Creating forge.python.org,474,Withdrawn
+Surviving a Compromise of PyPI: Endtoend signing of packages,480,Draft
+Removing External Hosting Support on PyPI,470,Final
+Change StopIteration handling inside generators,479,Final
+Support for indexing with keyword arguments,472,Rejected
+Adding structured data to builtin exceptions,473,Rejected
+Removal of the PyPI Mirror Authenticity API,464,Final
+Migration of dict iteration code to Python 3,469,Withdrawn
+Network Security Enhancements for Python 2.7.x,466,Final
+A dedicated infix operator for matrix multiplication,465,Final
+Exceptioncatching expressions,463,Rejected
+Minor API improvements for binary sequences,467,Draft
+Adding % formatting to bytes and bytearray,461,Final
+Add binary interpolation and formatting,460,Withdrawn
+Core development workflow automation for CPython,462,Withdrawn
+Notation For PositionalOnly Parameters,457,Final
+Adding a keytransforming dictionary to collections,455,Rejected
+Preserving the order of **kwargs in a function.,468,Final
+Standard Metadata Extensions for Python Software Packages,459,Withdrawn
+Local Time Disambiguation,495,Final
+Secure PyPI downloads with signed repository metadata,458,Accepted
+Add a new tracemalloc module to trace Python memory allocations,454,Final
+Explicit bootstrapping of pip in Python installations,453,Final
+Removal of the PyPI Mirror Auto Discovery and Naming Scheme,449,Final
+Secure and interchangeable hash algorithm,456,Final
+Make newly created file descriptors noninheritable,446,Final
+Add __getdescriptor__ method to metaclass,447,Deferred
+Additional Unpacking Generalizations,448,Final
+Add new APIs to customize Python memory allocators,445,Final
+API for Cryptographic Hash Functions v2.0,452,Final
+Safe object finalization,442,Final
+Python Web3 Interface,444,Deferred
+Singledispatch generic functions,443,Final
+A ModuleSpec Type for the Import System,451,Final
+Improving Python ZIP Application Support,441,Final
+"A DSL for specifying signatures, annotations and argument converters",437,Rejected
+Transitioning to releasefile hosting on PyPI,438,Superseded
+Adding A Statistics Module To The Standard Library,450,Final
+IDLE Enhancement Exception for All Branches,434,Active
+Easier suppression of file descriptor inheritance,433,Superseded
+Adding an Enum type to the Python standard library,435,Final
+Time zone support improvements,431,Superseded
+The Argument Clinic DSL,436,Final
+Migrating to Python 3 as the default online documentation,430,Final
+Python 3.4 Release Schedule,429,Final
+The pathlib module – objectoriented filesystem paths,428,Final
+Inclusion of implicit pip bootstrap in Python installation,439,Rejected
+Compatibility Tags for Built Distributions,425,Final
+A method for exposing a length hint,424,Final
+os.scandir() function – a better and faster directory iterator,471,Final
+Metadata for Python Software Packages 2.0,426,Withdrawn
+The Wheel Binary Package Format 1.0,427,Final
+Simpler customisation of class creation,422,Withdrawn
+Adding sys.implementation,421,Final
+Including mock in the Standard Library,417,Final
+Naming conventions and recipes related to packaging,423,Deferred
+Protecting cleanup statements from interruptions,419,Deferred
+Add a frozendict builtin type,416,Rejected
+Implement context suppression with exception attributes,415,Final
+KeySharing Dictionary,412,Final
+Implicit Namespace Packages,420,Final
+Restructuring the CPython startup sequence,432,Withdrawn
+Provisional packages in the Python standard library,411,Superseded
+Version Identification and Dependency Specification,440,Final
+Explicit Unicode Literal for Python 3.3,414,Final
+Faster evolution of the Python Standard Library,413,Withdrawn
+Use decimal.Decimal type for timestamps,410,Rejected
+Suppressing exception context,409,Final
+New release cycle and introducing longterm support versions,407,Deferred
+Improved Encapsulation of Import State,406,Withdrawn
+Python 2.8 Unrelease Schedule,404,Final
+Python Virtual Environments,405,Final
+General purpose decorator clause (aka “@in” clause),403,Deferred
+BDFL Retirement,401,April Fool!
+Pure Python/C Accelerator Module Compatibility Requirements,399,Final
+Python 3.3 Release Schedule,398,Final
+Module Version Numbers,396,Rejected
+Python launcher for Windows,397,Final
+Qualified Names for Modules,395,Withdrawn
+Deprecate codecs.StreamReader and codecs.StreamWriter,400,Deferred
+Flexible String Representation,393,Final
+Python 3.2 Release Schedule,392,Final
+The “python” Command on UnixLike Systems,394,Active
+Standard library __preview__ package,408,Rejected
+Simplified Package Layout and Partitioning,402,Rejected
+DictionaryBased Configuration For Logging,391,Final
+Static metadata for Distutils,390,Rejected
+argparse  New Command Line Parsing Module,389,Final
+Nondecodable Bytes in System Character Interfaces,383,Final
+Changing the version comparison module in Distutils,386,Superseded
+Backwards Compatibility Policy,387,Active
+Namespace Packages,382,Rejected
+Syntax for Delegating to a Subgenerator,380,Final
+Defining a Stable ABI,384,Final
+Adding an Assignment Expression,379,Withdrawn
+Format Specifier for Thousands Separator,378,Final
+Mirroring infrastructure for PyPI,381,Withdrawn
+Migrating from Subversion to Mercurial,385,Final
+Python 2.7 Release Schedule,373,Final
+Adding an ordered dictionary to collections,372,Final
+Database of Installed Python Distributions,376,Final
+Per user sitepackages directory,370,Final
+Python 3.1 Release Schedule,375,Final
+Choosing a distributed VCS for the Python project,374,Final
+Post import hooks,369,Withdrawn
+Standard image protocol and class,368,Deferred
+Adding the pkg_resources module,365,Rejected
+New Super,367,Superseded
+Addition of the multiprocessing package to the standard library,371,Final
+Transitioning to the Py3K Standard Library,364,Withdrawn
+Syntax For Dynamic Attribute Access,363,Rejected
+Main module explicit relative imports,366,Final
+The “bytes” Object,358,Final
+Python 2.6 and 3.0 Release Schedule,361,Final
+The “make” Statement,359,Withdrawn
+Externally Maintained Packages,360,Final
+Function Signature Object,362,Final
+Allow __enter__() methods to skip the statement body,377,Rejected
+Python 2.5 Release Schedule,356,Final
+Enumerations in Python,354,Superseded
+Required Superclass for Exceptions,352,Final
+Using ssize_t as the index type,353,Final
+The freeze protocol,351,Rejected
+Allowing Any Object to be Used for Slicing,357,Final
+Allow str() to return unicode strings,349,Rejected
+Exception Reorganization for Python 3.0,348,Rejected
+Codetags,350,Rejected
+Metadata for Python Software Packages 1.2,345,Superseded
+Exception Chaining and Embedded Tracebacks,344,Superseded
+Path  Object oriented filesystem paths,355,Rejected
+User Defined (”,346,Withdrawn
+Anonymous Block Statements,340,Rejected
+Coroutines via Enhanced Generators,342,Final
+Executing modules as scripts,338,Final
+Migrating the Python CVS to Subversion,347,Final
+Unifying tryexcept and tryfinally,341,Final
+The “with” Statement,343,Final
+Design of the CPython Compiler,339,Withdrawn
+Overloadable Boolean Operators,335,Rejected
+Make None Callable,336,Rejected
+Logging Usage in the Standard Library,337,Deferred
+Byte vectors and String/Unicode Unification,332,Rejected
+Python Bytecode Verification,330,Rejected
+Treating Builtins as Constants in the Standard Library,329,Rejected
+Imports: MultiLine and Absolute/Relative,328,Final
+LocaleIndependent Float/String Conversions,331,Final
+subprocess  New process module,324,Final
+ResourceRelease Support for Generators,325,Rejected
+A Case for Top and Bottom Values,326,Rejected
+Simple Coroutines via SuspendIteration,334,Withdrawn
+Reverse Iteration,322,Final
+Python 2.4 Release Schedule,320,Final
+Decimal Data Type,327,Final
+"Add monotonic time, performance counter, and process time functions",418,Final
+Eliminate Implicit Exception Instantiation,317,Rejected
+Python Synchronize/Asynchronize Block,319,Rejected
+Date/Time Parsing and Formatting,321,Withdrawn
+Decorators for Functions and Methods,318,Final
+Metadata for Python Software Packages 1.1,314,Superseded
+Programming by Contract for Python,316,Deferred
+Copyable Iterators,323,Deferred
+Enhanced While Loop,315,Rejected
+Simple Implicit Lambda,312,Deferred
+Simplified Global Interpreter Lock Acquisition for Extensions,311,Final
+Adding Roman Numeral Literals to Python,313,Rejected
+Partial Function Application,309,Final
+How to Change Python’s Grammar,306,Withdrawn
+CSV File API,305,Final
+Extend divmod() for Multiple Divisors,303,Rejected
+Conditional Expressions,308,Final
+Python Web Server Gateway Interface v1.0,333,Final
+Special __main__() function in modules,299,Rejected
+The Locked Buffer Interface,298,Withdrawn
+Support for System Upgrades,297,Rejected
+Extensions to the pickle protocol,307,Final
+Controlling Generation of Bytecode Files,304,Withdrawn
+Reliable Acquisition/Release Pairs,310,Rejected
+Interpretation of multiline string constants,295,Rejected
+Type Names in the types Module,294,Rejected
+Adding a bytes Object Type,296,Withdrawn
+Package Index and Metadata for Distutils,301,Final
+Simpler String Substitutions,292,Final
+Codec Error Handling Callbacks,293,Final
+Generators Attributes and Exceptions,288,Withdrawn
+Code Migration and Modernization,290,Active
+New Import Hooks,302,Final
+Backward Compatibility for the Python 2 Standard Library,291,Final
+Generator Expressions,289,Final
+reStructuredText Docstring Format,287,Active
+Integer forloops,284,Rejected
+Python 2.3 Release Schedule,283,Final
+A Logging System,282,Final
+Adding a bool type,285,Final
+Unicode file name support for Windows NT,277,Final
+The enumerate() builtin function,279,Final
+Simple Iterator for ints,276,Rejected
+Dict Comprehensions,274,Final
+Switching on Multiple Values,275,Rejected
+Enhanced Argument Tuples,286,Deferred
+Loop Counter Iteration with range and xrange,281,Rejected
+Optimizing access to globals,280,Deferred
+API for Block Encryption Algorithms v1.0,272,Final
+Prefixing sys.path by command line option,271,Rejected
+Import Modules from Zip Archives,273,Final
+uniq method for list objects,270,Rejected
+Universal Newline Support,278,Final
+Future statements in simulated shells,264,Final
+Extended HTTP functionality and WebDAV,268,Rejected
+Optimized Access to Module Namespaces,267,Deferred
+Pgen Module for Python,269,Deferred
+Defining Python Source Code Encodings,263,Final
+Simplify xrange(),260,Final
+Support for “wide” Unicode characters,261,Final
+Sorting Dictionaries by Value,265,Rejected
+Optimizing Global Variable/Attribute Access,266,Withdrawn
+Docstring Conventions,257,Active
+Docstring Processing System Framework,256,Rejected
+Making Classes Look More Like Types,254,Rejected
+Omit printing newline after newline,259,Rejected
+Simple Generators,255,Final
+Using sitepackages on Windows,250,Final
+Subtyping Builtin Types,253,Final
+API for Cryptographic Hash Functions,247,Final
+Docutils Design Specification,258,Rejected
+Python Database API Specification v1.0,248,Final
+Making Types Look More Like Classes,252,Final
+Python 2.2 Release Schedule,251,Final
+The ,244,Rejected
+Module Repository Upload Mechanism,243,Withdrawn
+Object Adaptation,246,Rejected
+A Database of Installed Python Packages,262,Rejected
+Python Interface Syntax,245,Rejected
+Adding a Rational Type to Python,239,Rejected
+Numeric Kinds,242,Rejected
+Changing the Division Operator,238,Final
+Import on CaseInsensitive Platforms,235,Final
+Python Online Help,233,Deferred
+Unifying Long Integers and Integers,237,Final
+Python Database API Specification v2.0,249,Final
+Adding a Rational Literal to Python,240,Rejected
+Warning Framework,230,Final
+__findattr__(),231,Rejected
+Python 2.1 Release Schedule,226,Final
+Function Attributes,232,Final
+Iterators,234,Final
+Elementwise/Objectwise Operators,225,Rejected
+Reworking Python’s Numeric Model,228,Withdrawn
+Metadata for Python Software Packages,241,Superseded
+Web Library Enhancements,222,Deferred
+Attribute Docstrings,224,Rejected
+Change the Meaning of ,223,Final
+Statically Nested Scopes,227,Final
+Stackless Python,219,Deferred
+Import As,221,Final
+Adding a BuiltIn Set Object Type,218,Final
+Display Hook for Interactive Use,217,Final
+String Interpolation,215,Superseded
+Using Distutils to Build Python,229,Final
+"Coroutines, Generators, Continuations",220,Rejected
+Docstring Format,216,Rejected
+Loop Counter Iteration,212,Rejected
+Attribute Access Handlers,213,Deferred
+Adding A New Outer Product Operator,211,Rejected
+Decoupling the Interpreter Loop,210,Rejected
+Python Advanced Library,206,Withdrawn
+Weak References,205,Final
+Python 1.6 Release Schedule,160,Final
+Collecting information about git,103,Withdrawn
+Back to the __future__,236,Final
+Doing Python Micro Releases,102,Superseded
+Rich Comparisons,207,Final
+Range Literals,204,Rejected
+Reworking the Coercion Model,208,Final
+Feature Requests,42,Withdrawn
+Doing Python Releases 101,101,Active
+The Zen of Python,20,Active
+Extended Print Statement,214,Final
+Multidimensional Arrays,209,Withdrawn
+Python Unicode Integration,100,Final
+Python Language Governance,13,Active
