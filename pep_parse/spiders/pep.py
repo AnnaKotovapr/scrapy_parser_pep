@@ -1,19 +1,21 @@
 import re
+
 import scrapy
 
 from pep_parse.items import PepParseItem
-
-PEP_REGEXP = r'PEP\s(?P<number>\d+)\W+(?P<name>.+)$'
+from pep_parse.settings import PEP_REGEXP
+from pep_parse import settings
 
 
 class PepSpider(scrapy.Spider):
-    name = 'pep'
-    allowed_domains = ['peps.python.org']
-    start_urls = ['https://peps.python.org/']
+    name = settings.NAME
+    allowed_domains = settings.ALLOWED_DOMAINS
+    start_urls = settings.START_URLS
 
     def parse(self, response):
         peps = response.css('section#numerical-index td a::attr(href)')
         for pep_link in peps:
+            pep_link = pep_link + '/'
             yield response.follow(pep_link, callback=self.parse_pep)
 
     def parse_pep(self, response):

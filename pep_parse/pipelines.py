@@ -22,10 +22,7 @@ class PepParsePipeline:
     def process_item(self, item, spider):
 
         pep_status = item['status']
-        if self.results.get(pep_status):
-            self.results[pep_status] += 1
-        else:
-            self.results[pep_status] = 1
+        self.results[pep_status] = self.results.get(pep_status, 0) + 1
         return item
 
     def close_spider(self, spider):
@@ -35,6 +32,5 @@ class PepParsePipeline:
         with open(file_dir, mode='w', encoding='utf-8') as f:
             writer = csv.writer(f, dialect='unix')
             writer.writerow((FIELDS_NAME))
-            for key, values in self.results.items():
-                writer.writerow([key, values])
+            writer.writerow(self.results.items())
             writer.writerow(['Total', sum(self.results.values())])
