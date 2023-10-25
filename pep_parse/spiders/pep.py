@@ -18,7 +18,6 @@ class PepSpider(scrapy.Spider):
             pep_url = pep_link.extract()
             if not pep_url.endswith('/'):
                 pep_url += '/'
-            
             yield response.follow(pep_url, callback=self.parse_pep)
 
     def parse_pep(self, response):
