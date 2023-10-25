@@ -15,8 +15,11 @@ class PepSpider(scrapy.Spider):
     def parse(self, response):
         peps = response.css('section#numerical-index td a::attr(href)')
         for pep_link in peps:
-            pep_link = pep_link + '/'
-            yield response.follow(pep_link, callback=self.parse_pep)
+            pep_url = pep_link.extract()
+            if not pep_url.endswith('/'):
+                pep_url += '/'
+            
+            yield response.follow(pep_url, callback=self.parse_pep)
 
     def parse_pep(self, response):
         title = response.css('h1.page-title::text').get().replace('-', '')
@@ -29,5 +32,5 @@ class PepSpider(scrapy.Spider):
             'name': name,
             'status': status,
         }
-        # Передаём словарь с данными в конструктор класса item
+
         yield PepParseItem(data)
