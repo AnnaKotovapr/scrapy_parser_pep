@@ -26,10 +26,23 @@ class PepParsePipeline:
         return item
 
     def close_spider(self, spider):
+
+        file_dir = self.result_dir / FILENAME.format(
+            time=TIMENOW)
+        with open(file_dir, mode='w', encoding='utf-8') as f:
+            writer = csv.writer(f, dialect='unix')
+            writer.writerow((FIELDS_NAME))
+            writer.writerow(self.results.items())
+            writer.writerow(['Total', sum(self.results.values())])
+    
+    def close_spider(self, spider):
         file_dir = self.result_dir / FILENAME.format(
             time=TIMENOW)
         with open(file_dir, mode='w', encoding='utf-8') as f:
             writer = csv.writer(f, dialect='unix')
             writer.writerow(FIELDS_NAME)
-            writer.writerow(self.results.items())
-            writer.writerow(['Total', sum(self.results.values())])
+
+            # как я понимаю, чтобы результат выводился в табличном виде, нужно делать через for
+            data_to_write = [[status, count] for status, count in self.results.items()]
+            data_to_write.append(['Total', sum(self.results.values())])
+            writer.writerows(data_to_write)
