@@ -32,7 +32,7 @@ class PepParsePipeline:
             writer = csv.writer(f, dialect='unix')
             writer.writerow(FIELDS_NAME)
 
-            #  как я понимаю, чтобы результат выводился в табличном виде, 
+            #  как я понимаю, чтобы результат выводился в табличном виде,
             #  нужно делать через for
             data_to_write = [
                 [status, count] for status, count in self.results.items()]
