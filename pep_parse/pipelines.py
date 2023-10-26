@@ -24,7 +24,7 @@ class PepParsePipeline:
         pep_status = item['status']
         self.results[pep_status] = self.results.get(pep_status, 0) + 1
         return item
-    
+
     def close_spider(self, spider):
         file_dir = self.result_dir / FILENAME.format(
             time=TIMENOW)
